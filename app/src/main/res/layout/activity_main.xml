@@ -169,4 +169,16 @@
         app:layout_constraintStart_toEndOf="@+id/textView6"
         app:layout_constraintTop_toBottomOf="@+id/button" />
 
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:background="#9F4898"
+        android:text="Don't have an account? Sign up."
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
