@@ -89,22 +89,24 @@
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:layout_marginStart="104dp"
         android:layout_marginTop="15dp"
+        android:layout_marginEnd="2dp"
         android:text="Forgot your login details?"
         android:textColor="#FFFFFF"
         android:textColorHighlight="#00FFFFFF"
         android:textSize="10sp"
+        app:layout_constraintEnd_toStartOf="@+id/textView2"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button" />
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="15dp"
-        android:layout_marginEnd="109dp"
+        android:layout_marginEnd="104dp"
         android:text="Get help signing in."
         android:textColor="#FFFFFF"
         android:textSize="10sp"
